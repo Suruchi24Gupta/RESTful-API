@@ -29,8 +29,8 @@ First, you need to set up MongoDB. You can either install it locally or use a cl
 After updating your CRUD operations, testing each endpoint to ensure they interact correctly with MongoDB. I have used tool like Postman for testing API endpoints.
 Test Each Endpoint:
 
-Create a Book: Use the POST method to send a request to http://localhost:3000/books with a JSON body containing a book’s title and author. Check if the book is added correctly.
-Get All Books: Send a GET request to http://localhost:3000/books and see if you receive a list of all books.
+Create a Book: Use the POST method to send a request to http://localhost:5000/books with a JSON body containing a book’s title and author. Check if the book is added correctly.
+Get All Books: Send a GET request to http://localhost:5000/books and see if you receive a list of all books.
 Get a Single Book: Use the GET method with a specific book ID in the URL. Ensure it returns the correct book.
 Update a Book: Send a PUT request with updated data for a specific book ID. Verify if the book updates as expected.
 Delete a Book: Use the DELETE method on a book’s endpoint and check if it gets removed from the list.
